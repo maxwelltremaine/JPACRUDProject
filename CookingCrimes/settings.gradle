@@ -1,0 +1,2 @@
+rootProject.name = 'CookingCrimes'
+includeFlat "JPACookingCrimes"
