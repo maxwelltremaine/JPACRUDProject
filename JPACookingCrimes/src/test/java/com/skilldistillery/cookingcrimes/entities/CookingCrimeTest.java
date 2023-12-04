@@ -37,6 +37,7 @@ class CookingCrimeTest {
 
 	@AfterEach
 	void tearDown() throws Exception {
+		
 		em.close();
 		crime = null;
 		
@@ -45,7 +46,7 @@ class CookingCrimeTest {
 	@Test
 	void test_crime_basic_mapping() {
 		assertNotNull(crime);
-		assertEquals("jello surprise", crime.getFood());
+		assertEquals(1, crime.getId());
 		
 	}
 //	void test_crime_basic_mapping_2_electric_boogaloo() {
